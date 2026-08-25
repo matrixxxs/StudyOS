@@ -141,3 +141,12 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+
+cd study
+echo "node_modules/
+.next/
+.env
+.env.local
+.env*.local" > .gitignore
+cd ..
